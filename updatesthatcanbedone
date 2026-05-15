@@ -1,0 +1,20 @@
+Autonomous Decision-Making	jojo only reacts; it doesn’t initiate ideas or suggest tasks without input.	Add goal-setting or scheduled task loops. Use Gemini to create and evaluate ideas.
+Chain-of-Thought Reasoning	Doesn’t explain steps when solving complex problems.	Use Gemini to simulate step-by-step logical thinking (prompt: “Think step by step”).
+Daily Routine / Scheduling	No ability to schedule reminders, tasks, or track goals.	Add a task planner module using MongoDB + reminders via TTS.
+Self-awareness / Meta-AI	jojo can’t evaluate its own performance or learning.	Let Gemini analyze conversation history and suggest improvements.
+Plugin or Skill System	Not modular — all logic is inside one large class.	Refactor into plugin modules: music, vision, AI, web, etc.
+Wake Word Detection	Always listening is resource-heavy.	Add wake word (via Vosk, Snowboy, Porcupine).
+Safe Code Execution / Sandbox	Cannot evaluate or test code safely if generated.	Add exec() sandbox with ast and restricted_globals.
+Contextual Memory with Time	No long-term memory, dates, or priority-based memory.	Create priority/importance scores in MongoDB to recall context.
+Curiosity/Exploration	Doesn’t ask the user anything unless prompted.	Add daily questions or prompts using Gemini generation.
+Mobile/Cloud Interface	Only works locally.	Optional Flask web API or Telegram bot bridge.
+Draw on a very large, continuously updated pretrained model and external web sources on demand
+Generate high-quality, multi-language translations with contextual nuance
+Produce long, coherent multi-section documents (articles, legal drafts, academic-style writeups) with style controls and citations
+Explain step-by-step debugging and produce runnable, tested code snippets across many stacks
+Give real-time, curated web-based answers with source citations and side-by-side viewpoints
+Perform reliable, general-purpose natural-language planning and step decomposition (task planners)
+Translate intent into production-ready infrastructure designs and deployment scripts (IaC, Docker, CI/CD)
+Offer safe, policy-aware refusals and nuanced ethical guidance
+Summarize and analyze large external documents (PDFs, papers) with citations and Q&A over them
+Rapid iteration: test, propose changes, and produce diffs/patches for code or configs

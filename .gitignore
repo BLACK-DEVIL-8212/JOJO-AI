@@ -1,0 +1,125 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.env
+
+# API credentials
+API/credential.json
+API/google_token.json
+
+# =========================
+# AI / ML Models
+# =========================
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.keras
+*.h5
+
+# Model folders
+models/
+Oryan_ANN_model/
+
+# =========================
+# Datasets / Training
+# =========================
+datasets/
+training_data/
+*.csv
+*.parquet
+
+# =========================
+# Audio / Media
+# =========================
+mp3_music_lib/
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# =========================
+# Browser binaries
+# =========================
+invesrtingoly/chrome-win64/
+invesrtingoly/chromedriver-win64/
+
+# =========================
+# OCR / Tesseract
+# =========================
+invesrtingoly/tesseract-OCR/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Build / Cache
+# =========================
+.cache/
+build/
+dist/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =========================
+# Compiled binaries
+# =========================
+*.dll
+*.exe
+*.so
+*.dylib
+
+# =========================
+# PyInstaller
+# =========================
+*.spec
+
+# =========================
+# Face recognition temp data
+# =========================
+project/user_images/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Arduino build files
+# =========================
+*.hex
+*.elf
+*.map
